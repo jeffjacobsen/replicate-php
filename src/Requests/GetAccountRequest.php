@@ -5,7 +5,7 @@ namespace SabatinoMasala\Replicate\Requests;
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
 
-class GetAllTrainingsRequest extends Request
+class GetAccountRequest extends Request
 {
     public Method $method = Method::GET;
 
