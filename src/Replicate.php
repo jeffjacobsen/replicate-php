@@ -19,6 +19,11 @@ class Replicate extends Connector
         return new PredictionResource($this);
     }
 
+    public function account()
+    {
+        return new AccountResource($this);
+    }
+
     public function run($ref, $options, $progress = null)
     {
         $wait = $options['wait'] ?? null;
