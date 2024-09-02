@@ -2,11 +2,7 @@
 
 namespace SabatinoMasala\Replicate\Resources;
 
-use SabatinoMasala\Replicate\Requests\CancelTrainingRequest;
-use SabatinoMasala\Replicate\Requests\CreateDreamboothTrainingRequest;
-use SabatinoMasala\Replicate\Requests\GetAllTrainingsRequest;
-use SabatinoMasala\Replicate\Requests\GetDreamboothRequest;
-use SabatinoMasala\Replicate\Requests\GetTrainingRequest;
+use SabatinoMasala\Replicate\Requests\AccountRequest;
 
 class AccountResource extends Resource
 {
