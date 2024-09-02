@@ -2,6 +2,7 @@
 
 namespace SabatinoMasala\Replicate;
 
+use SabatinoMasala\Replicate\Resources\AccountResource;
 use SabatinoMasala\Replicate\Resources\ModelResource;
 use SabatinoMasala\Replicate\Resources\PredictionResource;
 use SabatinoMasala\Replicate\Resources\TrainingResource;
